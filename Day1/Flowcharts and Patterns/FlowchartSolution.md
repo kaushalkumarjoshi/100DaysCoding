@@ -152,7 +152,7 @@ GCD (A, B) {
 3. Take input for num.
 4. Declare variable num1, num2 and num3 and inititalize to 0, 1 and 1 respectively.
 5. If num == 0, print "Yes". Go to step 14.
-6. If num == 0, print "Yes". Go to step 14.
+6. If num == 1, print "Yes". Go to step 14.
 7. num3 = num1 + num2.
 8. Check num3 > num. If false, go to next step. If true, go to step 13.
 9. If num3 == num, print "Yes". Go to step 14.
