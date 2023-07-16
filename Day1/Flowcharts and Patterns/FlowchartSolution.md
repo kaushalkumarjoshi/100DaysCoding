@@ -36,4 +36,18 @@ Write a function that takes three integer numbers, adds them and divides by 3 an
 7. Print true.
 8. Stop.
 
-**A4**
+**A4. Factorial of a non-negative number.**
+
+### Steps:
+
+1. Start.
+2. Declare a variable num.
+3. Take input for num.
+4. Create a variable, result initialized to 1
+5. Check if num is zero. go to step 10 if true. Else move to next step.
+6. Check if num is 1. go to step 10 if true. Else move to next step.
+7. If num is greater than 1, result *= num
+8. Decrease num by 1
+9. Go to step 5.
+10. Print result.
+11. Stop.
