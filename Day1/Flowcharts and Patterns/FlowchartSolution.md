@@ -158,6 +158,6 @@ GCD (A, B) {
 9. If num3 == num, print "Yes". Go to step 14.
 10. Set num1 = num2.
 11. Set num2 = num3.
-12. Go to step 6.
+12. Go to step 7.
 13. Print "No".
 14. Stop.
