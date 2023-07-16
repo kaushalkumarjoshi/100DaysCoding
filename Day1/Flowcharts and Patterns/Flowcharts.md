@@ -17,7 +17,7 @@ Q8. Find GCD : You are given two numbers. You need to calculate and print their 
 
 Q9. Check Prime number : You are given a single positive integer, N. You need to find and print whether N is Prime or not. Draw a flowchart for this process.
 
-Q10. All fibonacci numbers : You are given a single non-negative integer, N. You need to print all numbers that: (i) occur in the range 0 to N (both inclusive). (ii) are a part of the fibonacci sequence. Draw a flowchart for this process
+Q10. All fibonacci numbers : You are given a single non-negative integer, N. You need to print all numbers that: (i) occur in the range 0 to N (both inclusive). (ii) are a part of the fibonacci sequence. Draw a flowchart for this process.
 Note : The first two terms of the fibonacci sequence are 0 and 1.
 
 Q11. Member of Fibonacci : You are given a single non-negative integer, N. You need to find out whether N is a part of the fibonacci sequence. Print "Yes" if it is and "No" if it's not. Draw a flowchart for this process.
