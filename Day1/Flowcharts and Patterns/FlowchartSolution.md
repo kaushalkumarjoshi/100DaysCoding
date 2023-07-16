@@ -151,12 +151,13 @@ GCD (A, B) {
 2. Declare a number num.
 3. Take input for num.
 4. Declare variable num1, num2 and num3 and inititalize to 0, 1 and 1 respectively.
-5. Print num1 and num2.
-6. num3 = num1 + num2.
-7. Check num3 > num. If false, go to next step. If true, go to step 12.
-8. If num3 = num, print "Yes"
-9. Set num1 = num2.
-10. Set num2 = num3.
-11. Go to step 6.
-12. Print "No".
-13. Stop.
+5. If num == 0, print "Yes". Go to step 14.
+6. If num == 0, print "Yes". Go to step 14.
+7. num3 = num1 + num2.
+8. Check num3 > num. If false, go to next step. If true, go to step 13.
+9. If num3 == num, print "Yes". Go to step 14.
+10. Set num1 = num2.
+11. Set num2 = num3.
+12. Go to step 6.
+13. Print "No".
+14. Stop.
