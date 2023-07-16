@@ -120,7 +120,13 @@ GCD (A, B) {
 **A9. Check is N is a prime number or not.**
 
 ### Steps:
-
+Boolean isPrime = true;
+for(i=2,i*i=n;i++){
+    if(n%i==0){
+        isPrime = false;
+        break;
+    }
+}
 1. Start.
 2. Declare a number num.
 3. Take input for num.
