@@ -91,3 +91,72 @@ Write a function that takes three integer numbers, adds them and divides by 3 an
 8. Check i <= num. If true, go to step 7. Else go to next step.
 9. Print sum.
 10. Stop.
+
+**A8. Find GCD of two numbers.**
+
+//24 = 2, 2, 2, 3
+//36 = 2, 2, 3, 3
+//GCD = 2 * 2 * 3
+
+GCD (A, B) {
+    if A = B : 
+    return A
+    if A > B :
+    return GCD (A - B, B)
+    else :
+    return GCD (B, B - A)
+}
+
+### Steps:
+
+1. Start.
+2. Declare two variables num1 and num2.
+3. Take input for num1 and num2.
+4. Check if num1 == num2. If true, print num1 and go to step7 else go to next step.
+5. Check if num1 > num2. If true, set num1 = num1 - num2. Go to step 4. Else go to next step.
+6. Check if num1 < num2. If true, create a variable num3. set num3 = num1, set num1 = num2 and num2 = num2-num3. Go to step4. Else go to next step.
+7. Stop
+
+**A9. Check is N is a prime number or not.**
+
+### Steps:
+
+1. Start.
+2. Declare a number num.
+3. Take input for num.
+4. 
+
+
+**A10. Print all fibonacci numbers between 0 and N.**
+
+### Steps:
+
+1. Start.
+2. Declare a number num.
+3. Take input for num.
+4. Declare variable num1, num2 and num3 and inititalize to 0, 1 and 1 respectively.
+5. Print num1 and num2.
+6. num3 = num1 + num2.
+7. Check num3 > num. If false, print num3 and go to next step. If true, go to step 11.
+8. Set num1 = num2.
+9. Set num2 = num3.
+10. Go to step 6.
+11. Stop.
+
+**A11. Check if a given number is in fibonacci sequence.**
+
+### Steps:
+
+1. Start.
+2. Declare a number num.
+3. Take input for num.
+4. Declare variable num1, num2 and num3 and inititalize to 0, 1 and 1 respectively.
+5. Print num1 and num2.
+6. num3 = num1 + num2.
+7. Check num3 > num. If false, go to next step. If true, go to step 12.
+8. If num3 = num, print "Yes"
+9. Set num1 = num2.
+10. Set num2 = num3.
+11. Go to step 6.
+12. Print "No".
+13. Stop.
