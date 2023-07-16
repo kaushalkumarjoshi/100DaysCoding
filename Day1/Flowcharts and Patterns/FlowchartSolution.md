@@ -48,6 +48,46 @@ Write a function that takes three integer numbers, adds them and divides by 3 an
 6. Check if num is 1. go to step 10 if true. Else move to next step.
 7. If num is greater than 1, result *= num
 8. Decrease num by 1
-9. Go to step 5.
+9. Go to step 6.
 10. Print result.
 11. Stop.
+
+**A5. Print Even numbers between 1 and N (all inclusive).**
+
+### Steps:
+
+1. Start.
+2. Declare a variable num.
+3. Take input for num.
+4. Check num <= 1. If true, go to step 9 else go to next step.
+5. Create a variable i and initialize to 2.
+6. Print i.
+7. Add 2 to i.
+8. Check i <= num. If true, go to step 6. Else go to next step.
+9. Stop.
+
+**A6. Given length of three sides of a triangle, print 1 if it is equilateral. print 0 of it is isosceles, print -1 if it is scalene.**
+
+1. Start.
+2. Declare three variables num1, num2 and num3.
+3. Take input for the above variables.
+4. If num1 == num2 && num2 == num3, if true, print 1 and go to step 7 else go to next step.
+5. If num1 == num2 || num2 == num3, if true, print 0 and go to step 7 else go to next step.
+6. If num1 != num2 && num2 != num3, if true, print -1 and go to next step.
+7. Stop
+
+**A7. Print Sum of Even numbers between 1 and N (all inclusive).**
+
+### Steps:
+
+1. Start.
+2. Declare a variable num.
+3. Take input for num.
+4. Check num <= 1. If true, go to step 9 else go to next step.
+5. Create a variable i and initialize to 2.
+6. Create a variable sum and initialize to 0.
+7. Add sum and i.
+8. Add 2 to i.
+8. Check i <= num. If true, go to step 7. Else go to next step.
+9. Print sum.
+10. Stop.
