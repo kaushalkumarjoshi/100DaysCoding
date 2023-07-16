@@ -36,3 +36,4 @@ Write a function that takes three integer numbers, adds them and divides by 3 an
 7. Print true.
 8. Stop.
 
+**A4**
